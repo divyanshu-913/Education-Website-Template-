@@ -1,0 +1,279 @@
+.slider {
+  position: relative;
+  height: 500px;
+  overflow: auto;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -888;
+
+  display: none;
+}
+
+.slide.active {
+  display: block;
+  z-index: -888;
+}
+
+.overlay-text {
+  position: absolute;
+  left: 20%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  top: 25%;
+  right: 20%;
+
+  z-index: 999;
+}
+
+.overlay-heading {
+  position: absolute;
+  left: 20%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  top: 40%;
+  right: 20%;
+  z-index: 999;
+}
+
+.nav-btn {
+  position: absolute;
+
+  cursor: pointer;
+}
+
+.nav-left {
+  position: absolute;
+  left: 3%;
+  top: 40%;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 13px;
+}
+
+.nav-right {
+  position: absolute;
+  right: 3%;
+  top: 40%;
+  font-size: 20px;
+
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 13px;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+  color: white;
+
+  z-index: 999;
+
+  font-weight: lighter;
+}
+
+.main-section {
+  display: flex;
+  margin: 10px 30px;
+  justify-content: space-between;
+}
+
+.course-row-1 {
+  width: 60%;
+  margin: 30px 0px 30px 0px;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.row-1 {
+  width: 100%;
+  display: flex;
+  margin: 30px 0px 30px 0px;
+  align-items: center;
+  gap: 10px;
+}
+
+.col-1 {
+  width: 50%;
+
+  padding-top: 40px;
+}
+
+.course-image-1 {
+  width: 50px;
+  height: 50px;
+}
+
+.course-img-1 {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+#course-heading {
+  margin: 25px 0 13px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0b1c39;
+}
+#sub-heading {
+  font-size: 16px;
+  color: #626a77;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  width: 75%;
+}
+
+.form-section {
+  width: 35%;
+  background-color: white;
+  box-shadow: -1px -1px 10px #888888;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin-top: -75px;
+}
+
+.form-container {
+  margin: 20px 30px 10px 40px;
+}
+
+#register-heading {
+  font-size: xx-large;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: left;
+}
+input {
+  width: 65%;
+  margin: 25px 0px 0px 10px;
+  padding: 20px 30px;
+  outline: none;
+  border: 1px solid #f0f3f7;
+  border-radius: 30px;
+  background-color: #f0f3f7;
+  transition: 0.5s;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+.option-box {
+  width: 65%;
+  margin: 25px 0px 0px 10px;
+  padding: 20px 30px;
+  border: none;
+  background-color: #f0f3f7;
+  border-radius: 30px;
+  transition: 0.3s;
+
+}
+
+select {
+  background-color: #f0f3f7;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  padding: 0px 100px 0px 0px;
+  opacity: 70%;
+  transition: 0.5s;
+}
+
+select:hover {
+  border: none;
+  outline: none;
+  background: none;
+}
+.option-box:hover {
+  border: 2px solid #cbe0fb;
+  background-color: white;
+}
+
+input:focus-visible {
+  border: 2px solid #cbe0fb;
+  background-color: white;
+}
+
+.apply-btn-box{
+  width: 65%;
+  margin: 25px 0px 0px 10px;
+  padding: 1px 20px;
+  border: none;
+  background-color:#2572FF;
+  border-radius: 30px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.apply-btn-box:hover {
+  border: 2px solid #2572FF;
+  background-color: white;
+  
+
+}
+
+#apply-button{
+  text-decoration: none;
+  color: white;
+  padding: 15px 10px;
+  cursor: pointer;
+
+  
+}
+
+#apply-button:hover{
+  color: #2572FF;
+  background-color: white;
+}
+
+.img-col
+{
+  display: flex;
+  width: 50%;
+  position: relative;
+}
+.hero-image
+{
+  display: flex;
+  position: absolute;
+  top: 20%;
+}
+
+
+.main-section-2 {
+  display: flex;
+  margin: 10px 30px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+.img-desc-col{
+  display: flex;
+  width: 50%;
+}
+
+.hero-about-box{
+  display: flex;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: #2572FF;
+  height: 50px;
+  border-radius: 50px;
+
+}
+
+#hero-about-text{
+  display: flex;
+  font-size: 12px;
+
+}
